@@ -72,7 +72,7 @@ Small code snippet of the operations performed:
 ![Valid Parantheses](./Stack/Valid_Parantheses.PNG)
 
 Solution:
-```
+```python
 class Solution(object):
     def isValid(self, s):
 
@@ -102,7 +102,7 @@ class Solution(object):
 ![Min Stack](Stack/Min_Stack.PNG)
 
 Solution:
-```
+```python
 class MinStack:
 
     def __init__(self):
@@ -141,7 +141,7 @@ class MinStack:
 ![Decode String](Stack/Decode_String.PNG)
 
 Solution: 
-```
+```python
 class Solution(object):
     def decodeString(self, s):
         stack = []
@@ -164,7 +164,7 @@ class Solution(object):
 ![Exclusive Time of Functions](Stack/Exclusive_Time_of_Functions.PNG)
 
 Solution: 
-```
+```python
 class Solution:
     def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:
         stack = []
@@ -190,7 +190,7 @@ class Solution:
 ![Asteroid Collision](Stack/Asteroid_Collision.PNG)
 
 Solution: 
-```
+```python
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
         stack = []
@@ -214,7 +214,7 @@ class Solution:
 ![Score of Parantheses](Stack/Score_of_Parantheses.PNG)
 
 Solution: 
-```
+```python
 class Solution:
     def scoreOfParentheses(self, S: str) -> int:
         if not S:
@@ -243,7 +243,7 @@ class Solution:
 ![Maximum Frequency Stack](Stack/Maximum_Frequency_Stack.PNG)
 
 Solution: 
-```
+```python
 class FreqStack:
 
     def __init__(self):
@@ -270,7 +270,7 @@ class FreqStack:
 ![Minimum Add to Make Parentheses Valid](Stack/Minimum_Add_to_Make_Parentheses_Valid.PNG)
 
 Solution:
-```
+```python
 class Solution:
     def minAddToMakeValid(self, S: str) -> int:
         stack = []
@@ -285,7 +285,7 @@ class Solution:
 ![Validate Stack Sequences](Stack/Validate_Stack_Sequences.PNG)
 
 Solution:
-```
+```python
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
         if not pushed:
@@ -313,7 +313,7 @@ class Solution:
 ![Smallest Subsequence of Distinct Characters](Stack/Smallest_Subsequence_of_Distinct_Characters.PNG)
 
 Solution:
-```
+```python
 class Solution:
     def smallestSubsequence(self, text: str) -> str:
         rindex = {c: i for i, c in enumerate(text)}
@@ -329,7 +329,7 @@ class Solution:
 ![Reverse Substrings Between Each Pair of Parentheses](Stack/Reverse_Substrings_Between_Each_Pair_of_Parentheses.PNG)
 
 Solution:
-```
+```python
 class Solution:
     def reverseParentheses(self, s: str) -> str:
         
@@ -363,7 +363,7 @@ class Solution:
 
 ![Minimum Remove to Make Valid Parentheses](Stack/Minimum_Remove_to_Make_Valid_Parentheses.PNG)
 
-```
+```python
 from collections import deque
 
 class Solution:
@@ -392,7 +392,7 @@ class Solution:
 ![Basic Calculator](Stack/Basic_Calculator.PNG)
 
 Solution:
-```
+```python
 class Solution:
     def calculate(self, s: str) -> int:
 
@@ -457,7 +457,7 @@ class Solution:
 ![Remove Duplicate Letters](Stack/Remove_Duplicate_Letters.PNG)
 
 Solution:
-```
+```python
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
         rindex = {c: i for i, c in enumerate(s)}
@@ -480,7 +480,7 @@ Solution:
 ![Basic Calculator III](Stack/Basic_Calculator_III.jfif)
 
 Solution:
-```
+```python
 class Solution:
     def calculate(self, s: str) -> int:
 
