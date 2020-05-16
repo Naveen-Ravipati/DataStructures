@@ -68,9 +68,8 @@ Small code snippet of the operations performed:
 ### Questions and Solutions in one place for quick reference
 
 #### Easy
-1. 20. Valid Parantheses
 
-![Valid Parantheses](./Stack/Valid_Parantheses.png)
+![Valid Parantheses](./Stack/Valid_Parantheses.PNG)
 
 Solution:
 ```
@@ -100,9 +99,7 @@ class Solution(object):
                     break
         return not stack
 ```
-2. 155. Min Stack 
-
-![Min Stack](Stack/Min_Stack.png)
+![Min Stack](Stack/Min_Stack.PNG)
 
 Solution:
 ```
@@ -141,9 +138,7 @@ class MinStack:
 ```
 #### Medium
 
-1. 394. Decode String
-
-![Decode String](Stack/Decode_String.png)
+![Decode String](Stack/Decode_String.PNG)
 
 Solution: 
 ```
@@ -166,9 +161,7 @@ class Solution(object):
         return stack[0][0]
         
 ```
-2. 636. Exclusive Time of Functions
-
-![Exclusive Time of Functions](Stack/Decode_String.png)
+![Exclusive Time of Functions](Stack/Exclusive_Time_of_Functions.PNG)
 
 Solution: 
 ```
@@ -193,9 +186,8 @@ class Solution:
                 if stack:
                     stack[-1][2] += otherTasks     
 ```
-3. 735. Asteroid Collision
 
-![Asteroid Collision](Stack/Asteroid_Collision.png)
+![Asteroid Collision](Stack/Asteroid_Collision.PNG)
 
 Solution: 
 ```
@@ -219,10 +211,7 @@ class Solution:
                     stack.append(asteroid)
         return stack
 ```
-
-4. 856. Score of Parantheses
-
-![Score of Parantheses](Stack/Score_of_Parantheses.png)
+![Score of Parantheses](Stack/Score_of_Parantheses.PNG)
 
 Solution: 
 ```
@@ -251,9 +240,7 @@ class Solution:
         return sum(stack)
 ```
 
-5. 895. Maximum Frequency Stack
-
-![Maximum Frequency Stack](Stack/Maximum_Frequency_Stack.png)
+![Maximum Frequency Stack](Stack/Maximum_Frequency_Stack.PNG)
 
 Solution: 
 ```
@@ -280,9 +267,7 @@ class FreqStack:
         return val
 ```
 
-6. 921. Minimum Add to Make Parentheses Valid
-
-![Minimum Add to Make Parentheses Valid](Stack/Minimum_Add_to_Make_Parentheses_Valid.png)
+![Minimum Add to Make Parentheses Valid](Stack/Minimum_Add_to_Make_Parentheses_Valid.PNG)
 
 Solution:
 ```
@@ -297,9 +282,7 @@ class Solution:
         return len(stack)             
 ```
 
-7. 946. Validate Stack Sequences
-
-![Validate Stack Sequences](Stack/Validate_Stack_Sequences.png)
+![Validate Stack Sequences](Stack/Validate_Stack_Sequences.PNG)
 
 Solution:
 ```
@@ -326,9 +309,8 @@ class Solution:
                 return False
         return True
 ```
-8. 1081. Smallest Subsequence of Distinct Characters
 
-![Smallest Subsequence of Distinct Characters](Stack/Smallest_Subsequence_of_Distinct_Characters.png)
+![Smallest Subsequence of Distinct Characters](Stack/Smallest_Subsequence_of_Distinct_Characters.PNG)
 
 Solution:
 ```
@@ -343,9 +325,8 @@ class Solution:
                 stack.append(c)
         return ''.join(stack)
 ```
-9. 1190. Reverse Substrings Between Each Pair of Parentheses
 
-![Reverse Substrings Between Each Pair of Parentheses](Stack/Reverse_Substrings_Between_Each_Pair_of_Parentheses.png)
+![Reverse Substrings Between Each Pair of Parentheses](Stack/Reverse_Substrings_Between_Each_Pair_of_Parentheses.PNG)
 
 Solution:
 ```
@@ -380,9 +361,7 @@ class Solution:
         return stack[-1]
 ```
 
-10. 1249. Minimum Remove to Make Valid Parentheses
-
-![Minimum Remove to Make Valid Parentheses](Stack/Minimum_Remove_to_Make_Valid_Parentheses.png)
+![Minimum Remove to Make Valid Parentheses](Stack/Minimum_Remove_to_Make_Valid_Parentheses.PNG)
 
 ```
 from collections import deque
@@ -410,9 +389,7 @@ class Solution:
 
 #### Hard
 
-1. 224. Basic Calculator
-
-![Basic Calculator](Stack/Basic_Calculator.png)
+![Basic Calculator](Stack/Basic_Calculator.PNG)
 
 Solution:
 ```
@@ -477,9 +454,7 @@ class Solution:
         return nums.pop()
 ```
 
-2. 316. Remove Duplicate Letters
-
-![Remove Duplicate Letters](Stack/Remove_Duplicate_Letters.png)
+![Remove Duplicate Letters](Stack/Remove_Duplicate_Letters.PNG)
 
 Solution:
 ```
@@ -495,15 +470,12 @@ class Solution:
         return ''.join(stack)
 ```
 
-3. 726. Number of Atoms
-
-![Number of Atoms](Stack/Number_of_Atoms.png)
+![Number of Atoms](Stack/Number_of_Atoms.PNG)
 
 Solution:
 ```
 
 ```
-4. 772. Basic Calculator III
 
 ![Basic Calculator III](Stack/Basic_Calculator_III.jfif)
 
