@@ -70,7 +70,7 @@ Small code snippet of the operations performed:
 #### Easy
 1. 20. Valid Parantheses
 
-![Valid Parantheses](Stack/Valid_Parantheses.png)
+![Valid Parantheses](./Stack/Valid_Parantheses.png)
 
 Solution:
 ```
