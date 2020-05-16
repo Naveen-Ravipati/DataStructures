@@ -1,2 +1,2 @@
 # DataStructures
-Problems are splits based on important concepts
+Problems are split based on important concepts
