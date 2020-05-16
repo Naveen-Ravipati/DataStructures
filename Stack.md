@@ -26,7 +26,7 @@ We push Whenever an opening brace  ```'{', '(', '['```  is encountered and pop w
 In this problem, we push an element when an opening brace ``` '['``` is encountered. Pop the element off the stack when a closing brace ``` ']' ``` is encountered. After popping an element off the stack, we perform an operation on the popped element and add it to the element at the top of the stack.
 
 Small code snippet of the operations performed:
-```
+```python
         for ch in s:
             if ch.isdigit():
               num += ch
