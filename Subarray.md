@@ -49,11 +49,12 @@ This type of questions can be solved using a Hashmap to store the running sum/pr
 ![Hashmap_explanation](./Subarray/Hashmap_explanation.PNG)
 
 running_sum(x)   : Denotes the total sum from start(s)                position till x position.
+
 running_sum(y)   : Denotes the total sum from start(s)                position till y position.
+
 target_sum       : running_sum(y) - running_sum(x)
-So at any position y we want to find if there were any running_sum(x) values in our path.
-If there were such values then they denote the subarray sum that equals target value has been reached from point x to point y.
-To store the running_sum values we use dictionary in python.
+
+So at any position y we want to find if there were any running_sum(x) values in our path. If there were such values then they denote the subarray sum that equals target value has been reached from point x to point y. To store the running_sum values we use dictionary in python.
 
 Some problems on Leetcode that can be solved using this concept:
 
