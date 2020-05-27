@@ -54,7 +54,50 @@ Some problems on Leetcode that can be solved using this concept:
 
 ## Sliding Window in which window size increases depending on the constraints
 
+In this type of questions, maximum or longest subarray that satisfies the desired constraint needs to be found. 
 
+Standard template for this type of questions:
 
+One thing needs to be mentioned is that when asked to find maximum substring, we should update maximum after the inner while loop to guarantee that the substring is valid. On the other hand, when asked to find minimum substring, we should update minimum inside the inner while loop.
+
+```c++
+int lengthOfLongestSubstring(string s) {
+        vector<int> map(128,0);
+        int counter = 0, begin = 0, end = 0, d = 0; 
+        while(end < s.size()){
+            if(map[s[end++]]++ > 0)
+                counter++; 
+            while(counter > 0)
+                if(map[s[begin++]]-- > 1)
+                    counter--;
+            d = max(d, end-begin); //while valid, update d
+        }
+        return d;
+    }
+```
+
+Some problems on leetcode that can be solved using this concept:
+
+### Medium Level
+
+1. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+2. [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+3. [978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)
+4. [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+5. [1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/)
 
 ## Sliding window in which sliding window length will expand and then shrink
+
+This is by far the toughest concept in the sliding window, In this type the window size can either grow or shrink. As mentioned in the above code snippet, Increasing the size of the window can be done in the outer while loop and shrinking the size of the window can be in the inner while loop, depending on the constraints.
+
+Some problems on leetcode that can be solved using this concept:
+
+### Medium Level
+
+1. [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
+2. [795. Number of Subarrays with Bounded Maximum
+](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)
+3. [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+
+### Hard Level
+1. [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) Must solve Question ** 
